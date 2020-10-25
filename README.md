@@ -1,2 +1,2 @@
 # ICSonPySim
-Placeholder for ICSUnitSim functionality on Python project
+Initial release, detailed information will be provided later
