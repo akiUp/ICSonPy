@@ -9,7 +9,7 @@
 
 > This simulation can be used for HMI/SCADA and PLC's ModbusTCP interface card testing with realtime values and for ICS security research/trainings
 
-> The project is a migration of https://github.com/akiUp/ICSUnitSim project from Arduino like platform.
+> The project is a migration of https://github.com/akiUp/ICSUnitSim from Arduino like platform.
 
 ## Version history
 - V1 Project migrated from arduino/ESP32 platform
