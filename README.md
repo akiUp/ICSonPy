@@ -1,7 +1,7 @@
 # ICSonPy
 > Realtime Process Simulation of Plant Water Supply Unit
 
-> Hardware-in-the-loop simulation, generates logically correct Modbus signals of Water Supply facility using Python and ModbusTCP library
+> Virtual hardware-in-the-loop process, generates logically correct Modbus signals of typical Water Supply facility using Python and ModbusTCP library
 
 > Simulation uses https://github.com/riptideio/pymodbus library
 
