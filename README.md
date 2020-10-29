@@ -1,13 +1,13 @@
 # ICSonPy
 > Realtime Process Simulation of Plant Water Supply Unit
 
-> Simulation Generates logically correct Modbus signals of Water Supply facility using Python with ModbusTCP interface
+> Hardware-in-the-loop simulation, generates logically correct Modbus signals of Water Supply facility using Python and ModbusTCP library
 
-> Simulation uses https://github.com/riptideio/pymodbus lybrary
+> Simulation uses https://github.com/riptideio/pymodbus library
 
 > Python script could run on any Linux system with python 3.6 and above (Kali Linux, Ubuntu, Debian) should also run on Raspberry Pi like boards
 
-> Simulation can be used for HMI and PLC's Modbus interface card testing with realtime values and for ICS security research
+> This simulation can be used for HMI/SCADA and PLC's ModbusTCP interface card testing with realtime values and for ICS security research/trainings
 
 > The project is a migration of https://github.com/akiUp/ICSUnitSim project from Arduino like platform.
 
@@ -25,7 +25,7 @@
 
 ## Simulation Setup
 
->The Modbus server implementation requires super user rights
+>!!!The Modbus server implementation requires super user rights!!!
 
 copy the process.py script into user area like /home/kali/
 
@@ -34,7 +34,9 @@ to run the server use below command from script directory
 sudo python3 process.py
 ```
 
-by default server will start on current machine ip and port 502
+by default server will start on current machine's ip and port 502
+
+Lightweight VM image with autorun of process.py script is planned
 
 ## HMI Visualization Example
 
