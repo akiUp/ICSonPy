@@ -214,7 +214,7 @@ def run_simulation_server():
     time = 0.1  # process frequency delay in seconds, increase if you want to slow down the process
     loop = LoopingCall(f=Process, mbcontext=(context,)) # Main caleer function continiously calls the Process() function
     loop.start(time, now=False) # initially delay by time
-    StartTcpServer(context, identity=identity, address=("127.0.0.1", 502))
+    StartTcpServer(context, identity=identity, address=("0.0.0.0", 502))
 
 
 if __name__ == "__main__":
