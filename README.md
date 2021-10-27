@@ -13,7 +13,8 @@
 
 ## Version history
 - V1 Project migrated from arduino/ESP32 platform
-
+- V2 introduces pressure sensor and pipe explosion scenario as well as owerflow scenarion which will stop the simulation
+- V3 is the reaction on Oldsmar attack, adding simple clorine level dial. changing it would not affect process, but raise warning message on backend.
 ## Table of Contents
 - [Version history](#Version)
 - [Simulation setup](#Simulation)
